@@ -1,0 +1,107 @@
+// Variables
+$vino:#6B3442;
+$negrosmoke: #1f1f1f;
+$blancosmoke:#f8f9fa;
+$doradosmoke: #9E9E5E;
+
+
+/* Index */
+
+.s1 {
+    color:$negrosmoke;
+    font-family: 'Great Vibes', cursive;
+    font-weight: 50px;
+    font-size: 1.5em; 
+    margin-left: 5rem;
+    margin-top: 2rem;
+}
+
+  .s2 {
+    color: $vino;
+    font-family: 'Great Vibes', cursive;
+    font-weight: 1px;
+    font-size: 1em; }
+  
+  h2 {
+    color: $vino;
+    font-family: 'Saira Condensed', sans-serif;
+    font-size: 2rem;
+    font-weight: bolder;
+    text-align: center; }
+  
+  .cartas {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 2rem;
+    width: 100%;
+    padding: 2rem;
+  }
+
+  .cartasContenedor_uno{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 50%;
+    padding: 2rem;
+  }
+
+  .cartasContenedor_dos{
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    width: 50%;
+    padding: 2rem;
+  }
+  
+  .cartas_titulo{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    color: $doradosmoke;
+  }
+  
+  .cartas_texto{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 1rem;
+
+  }
+
+  .botonCartas {
+    background-color: $vino;
+    color: $blancosmoke;
+    text-decoration: none;
+  }
+  
+  .botonCartas:hover{
+    color: $blancosmoke;
+    background-color: $doradosmoke;
+  }
+  
+  .seccionDos {
+    display: flex;
+    border-width: 10px;
+    max-width: 100%; }
+  
+  .sobreNosotros {
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 10px;
+    width: 40%;
+    font-family: 'Saira Condensed', sans-serif; }
+  
+  .texto {
+    flex-wrap: wrap;
+    list-style: none;
+    font-weight: bolder;
+    font-size: 1.5em; }
+  
+  .textoPortfolio {
+    flex-direction: column;
+    margin-right: 10px;
+    text-align: center;
+    border: 2px solid;
+    border-color: $vino;
+    font-family: 'Saira Condensed', sans-serif;
+    font-size: larger; }

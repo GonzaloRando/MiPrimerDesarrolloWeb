@@ -1,0 +1,264 @@
+@charset "UTF-8";
+/* Index */
+.s1 {
+  color: #1f1f1f;
+  font-family: 'Great Vibes', cursive;
+  font-weight: 50px;
+  font-size: 1.5em;
+  margin-left: 5rem;
+  margin-top: 2rem; }
+
+.s2 {
+  color: #6B3442;
+  font-family: 'Great Vibes', cursive;
+  font-weight: 1px;
+  font-size: 1em; }
+
+h2 {
+  color: #6B3442;
+  font-family: 'Saira Condensed', sans-serif;
+  font-size: 2rem;
+  font-weight: bolder;
+  text-align: center; }
+
+.cartas {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 2rem;
+  width: 100%;
+  padding: 2rem; }
+
+.cartasContenedor_uno {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  width: 50%;
+  padding: 2rem; }
+
+.cartasContenedor_dos {
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  width: 50%;
+  padding: 2rem; }
+
+.cartas_titulo {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  color: #9E9E5E; }
+
+.cartas_texto {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 1rem; }
+
+.botonCartas {
+  background-color: #6B3442;
+  color: #f8f9fa;
+  text-decoration: none; }
+
+.botonCartas:hover {
+  color: #f8f9fa;
+  background-color: #9E9E5E; }
+
+.seccionDos {
+  display: flex;
+  border-width: 10px;
+  max-width: 100%; }
+
+.sobreNosotros {
+  display: inline-block;
+  margin-right: 10px;
+  margin-left: 10px;
+  width: 40%;
+  font-family: 'Saira Condensed', sans-serif; }
+
+.texto {
+  flex-wrap: wrap;
+  list-style: none;
+  font-weight: bolder;
+  font-size: 1.5em; }
+
+.textoPortfolio {
+  flex-direction: column;
+  margin-right: 10px;
+  text-align: center;
+  border: 2px solid;
+  border-color: #6B3442;
+  font-family: 'Saira Condensed', sans-serif;
+  font-size: larger; }
+
+/* Página Vinos */
+.vinos {
+  max-width: 1100px;
+  margin: auto;
+  overflow: auto;
+  padding: 0 2rem; }
+
+.vinos_portfolio {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2rem;
+  background: #f8f9fa;
+  margin-bottom: 2rem; }
+
+.vinos_portfolio h3 {
+  margin-bottom: 2rem;
+  color: #6B3442; }
+
+.vinos_portfolio img {
+  height: 400px; }
+
+.vinos_portfolio > div {
+  padding: 2rem; }
+
+/* Página Bodegas */
+.mapasBodegas {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 1em; }
+
+.mapasBodegas_salta {
+  display: flex;
+  flex-direction: column;
+  justify-content: left; }
+
+.mapasBodegas_mendoza {
+  display: flex;
+  flex-direction: column;
+  align-items: right; }
+
+img {
+  max-width: 100%; }
+
+.carousel {
+  width: 70%;
+  height: 25%;
+  display: flex;
+  justify-content: center; }
+
+.contenedorCar {
+  display: flex;
+  justify-content: center; }
+
+/* Familia */
+.container {
+  max-width: 1100px;
+  margin: auto;
+  overflow: auto;
+  padding: 0 2rem; }
+
+.familiaPiat {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2rem;
+  background: #f1f1f1;
+  margin-bottom: 2rem; }
+
+.familiaPiat h3 {
+  margin-bottom: 2rem;
+  color: #6B3442; }
+
+.familiaPiat img {
+  height: 400px; }
+
+.familiaPiat > div {
+  padding: 2rem; }
+
+.familiaPiat:nth-child(even) img {
+  order: 2; }
+
+/* Formulario */
+.formulario {
+  width: 95%;
+  margin: 10px; }
+
+.form-select:focus {
+  border-color: #1f1f1f;
+  box-shadow: 0 0 0 0.1rem #1f1f1f; }
+
+.form-control:focus {
+  border-color: #1f1f1f;
+  box-shadow: 0 0 0 0.1rem #1f1f1f; }
+
+.btn-primary {
+  color: #f8f9fa;
+  background-color: #1f1f1f;
+  border-color: #1f1f1f; }
+
+.btn-primary:hover {
+  background-color: #6B3442;
+  color: #f8f9fa;
+  border-color: #1f1f1f; }
+
+/* Responsive */
+@media only screen and (min-width: 1024px) {
+  .caracVinos {
+    grid-template-columns: repeat(3, 1fr); } }
+
+@media only screen and (min-width: 768px) {
+  .caracVinos {
+    grid-template-columns: repeat(4, 1fr); } }
+
+h3 {
+  font-size: 3rem; }
+
+h2 {
+  font-size: 2rem; }
+
+h1 {
+  font-size: 1rem; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+li {
+  text-decoration: none; }
+
+h2 {
+  color: #6B3442;
+  font-family: 'Saira Condensed', sans-serif;
+  font-size: 2rem;
+  font-weight: bolder;
+  text-align: center; }
+
+body {
+  background-color: #e2e2e2; }
+
+/* Barra de Navegacion */
+.container-fluid {
+  background-image: image(); }
+
+.navbar-light .navbar-nav .nav-link.active:hover {
+  background-color: #9E9E5E;
+  transition: opacity 1.5s; }
+
+.navbar-brand {
+  width: 50px; }
+
+.loguito {
+  width: 100%; }
+
+#navegacion {
+  width: 100%;
+  height: 50%; }
+
+/* Footer */
+footer {
+  display: flex;
+  flex-direction: row;
+  text-align: end;
+  text-orientation: sideways-right;
+  display: inline-block;
+  max-width: 100%;
+  height: 100%; }
+
+.redeSociales {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px 0px 0px 20px; }
