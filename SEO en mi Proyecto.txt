@@ -1,5 +1,0 @@
-- Se optimizaron las imágenes en cuanto a calidad y compresión.
-- Se agregó palabras clave a la página de Inicio de mi web.
-- Se agregó información extra en los títulos de cada página.
-- Se agregó una breve Description del sitio web.
-- Se colocaron h1/2/3, descentralizando los títulos.
